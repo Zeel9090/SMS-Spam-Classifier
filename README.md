@@ -32,7 +32,15 @@ To run the project, you need the following dependencies:
  4. After training, the model will be evaluated on a holdout set and the performance metrics (such as accuracy, precision, recall, and F1-score) will be displayed.
  5. Finally, you can use the trained model to predict the label (spam/ham) of new SMS messages by modifying the predict function in the script.
 
- 
- * 
+# Results
+
+The trained model achieved an accuracy of 97.19 % and Precision is 100 % on the test set and performed well in terms of precision, recall, and F1-score.
 
 
+
+| Metric       | Score           |
+|------------|-----------------------|
+| Accuracy     | 97.10 % |
+| Precision     | 100 % |
+| Recall     | 76.19 % |
+| F1-score     | 86.49 % |

@@ -14,4 +14,25 @@ The dataset file (sms_spam_dataset.csv) contains two columns:
  * label: Indicates whether the message is spam (1) or ham (0).
  * text: The actual text content of the SMS message
 
+# Requirements
+
+To run the project, you need the following dependencies:
+ * Python 3.x
+ * pandas
+ * numpy
+ * scikit-learn
+ * nltk (Natural Language Toolkit)
+ * matplotlib
+
+# Usage
+
+ 1. Clone the repository or download the project files.
+ 2. Run the sms_spam_detection.py script to train and evaluate the spam detection model.
+ 3. The script will load the dataset, preprocess the text data, and train a machine learning model using the TF-IDF (Term Frequency-Inverse Document Frequency) technique.
+ 4. After training, the model will be evaluated on a holdout set and the performance metrics (such as accuracy, precision, recall, and F1-score) will be displayed.
+ 5. Finally, you can use the trained model to predict the label (spam/ham) of new SMS messages by modifying the predict function in the script.
+
+ 
+ * 
+
 
